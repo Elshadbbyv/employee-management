@@ -20,6 +20,7 @@ public class EmployeeEntity {
     private String address;
 
     public EmployeeEntity() {
+        //super();
     }
 
     public EmployeeEntity(Long id, String name, Gender gender, Date dateOfBirth, String address) {
